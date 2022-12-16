@@ -11,7 +11,7 @@ and downloaded for use in this project. The twelve landslide susceptibility cont
 Data section were requested and downloaded, preprocessed to normalize units, ensure a constant spatial reference
 system and raster resolution, mosaicked and combined data in separate regions into layers covering the entire
 study area, and converted to the same file type to ensure uniformity in analysis. The resulting preprocessed
-layers were spatially joined to the observed landslide points shapefile.
+layers were spatially joined to the observed landslide points shapefile. Further details are included in the paper.
 
 The purpose of this nonspatial classification analysis of landslide points is to determine whether it is feasible
 to construct a reasonably accurate classification model to predict the severity of observed landslides. If several
