@@ -3,8 +3,15 @@
 This repository contains Python code used for EDA and nonspatial classification analysis of observed landslide
 points with susceptibility factors joined. The spatial classification and prediction of landslide points
 and classification and prediction of landslide polygons were done in ArcGIS Pro using forest-based classification
-and regression as detailed in the paper. The data sources, downloading, and full preprocessing steps as detailed
-in the model workflow in the paper were also done in ArcGIS Pro. 
+and regression as detailed in the paper.
+
+The shapefile that is being read into this analysis originates from the USGS Landslide Inventory, where observed
+landslides based on previous publications in Colorado were compiled by the Colorado Geological Survey and requested
+and downloaded for use in this project. The twelve landslide susceptibility controlling factors as detailed in the 
+Data section were requested and downloaded, preprocessed to normalize units, ensure a constant spatial reference
+system and raster resolution, mosaicked and combined data in separate regions into layers covering the entire
+study area, and converted to the same file type to ensure uniformity in analysis. The resulting preprocessed
+layers were spatially joined to the observed landslide points shapefile.
 
 The purpose of this nonspatial classification analysis of landslide points is to determine whether it is feasible
 to construct a reasonably accurate classification model to predict the severity of observed landslides. If several
