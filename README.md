@@ -33,3 +33,10 @@ The code then conducts a train-test split and trains a classifier on the data (m
 the given version uses random forest). The code then provides a suite a functions for evaluating classifier performance,
 including regular and normalized confusion matrices, feature importances, precision-recall and receiver operating
 characteristic curves, and cross-validation.
+
+## US_Landslide_Points_Project.shp
+
+The shapefile that is being used by the Python code, with all of the preprocessing steps and feature data joins 
+conducted as discussed above. "Project" specifies that these points have been projected into the NAD 1983 (2011)
+StatePlane Colorado North FIPS 0501 (Meters) spatial reference system to distinguish it from previous versions
+of the shapefile in various steps of preprocessing.
