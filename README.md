@@ -39,4 +39,4 @@ characteristic curves, and cross-validation.
 The shapefile that is being used by the Python code, with all of the preprocessing steps and feature data joins 
 conducted as discussed above. "Project" specifies that these points have been projected into the NAD 1983 (2011)
 StatePlane Colorado North FIPS 0501 (Meters) spatial reference system to distinguish it from previous versions
-of the shapefile in various steps of preprocessing.
+of the shapefile in various steps of preprocessing (not included in this repository).
